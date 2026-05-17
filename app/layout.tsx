@@ -1,0 +1,45 @@
+import type { Metadata } from 'next'
+import { Geist, Geist_Mono } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/next'
+import './globals.css'
+
+const _geist = Geist({ subsets: ["latin"] });
+const _geistMono = Geist_Mono({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: 'GoolPxl - Football Documentary',
+  description: 'Cinematic storytelling of the beautiful game. Discover the untold stories behind football&apos;s greatest moments.',
+  generator: 'v0.app',
+  icons: {
+    icon: [
+      {
+        url: '/Logo-GoolPxl-32x32.webp',
+        media: '(prefers-color-scheme: light)',
+      },
+      {
+        url: '/Logo-GoolPxl-32x32.webp',
+        media: '(prefers-color-scheme: dark)',
+      },
+      {
+        url: '/logo-completo.svg',
+        type: 'image/svg+xml',
+      },
+    ],
+    apple: '/Logo-GP-transparent.webp',
+  },
+}
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="en" className="bg-background dark">
+      <body className="font-sans antialiased bg-background">
+        {children}
+        {process.env.NODE_ENV === 'production' && <Analytics />}
+      </body>
+    </html>
+  )
+}
