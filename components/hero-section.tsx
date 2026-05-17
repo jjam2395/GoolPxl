@@ -28,6 +28,7 @@ export function HeroSection() {
               src="/Logo-GP-transparent.webp"
               alt="GoolPxl"
               fill
+              priority
               className="object-contain drop-shadow-2xl filter brightness-110"
               loading="eager"
             />

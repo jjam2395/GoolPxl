@@ -22,9 +22,8 @@ const playfairDisplay = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: 'GoolPxl - Football Documentary',
-  description: 'Cinematic storytelling of the beautiful game. Discover the untold stories behind football&apos;s greatest moments.',
-  generator: 'v0.app',
+  title: 'GoolPxl - Rumbo al mundial 2026',
+  description: 'El fútbol que amas, contado como una película. Camino al Mundial 2026: historias, leyendas y momentos que pueden cambiarlo todo.',
   icons: {
     icon: [
       {
