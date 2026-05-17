@@ -13,10 +13,11 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Navigation */}
-          <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4">Navegación</h4>
-            <ul className="space-y-4">
+          {/* Navigation + Follow: two columns on mobile, separate grid cells on md+ */}
+          <div className="grid grid-cols-2 gap-8 md:contents">
+            <div>
+              <h4 className="text-sm font-semibold text-foreground mb-4">Navegación</h4>
+              <ul className="space-y-4">
               <li>
                 <Link href="#featured" className="text-muted-foreground hover:text-success text-sm transition-colors">
                   Historias
@@ -33,12 +34,11 @@ export function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
+            </div>
 
-          {/* Follow */}
-          <div>
-            <h4 className="text-sm font-semibold text-foreground mb-4">Síguenos</h4>
-            <ul className="space-y-4">
+            <div>
+              <h4 className="text-sm font-semibold text-foreground mb-4">Síguenos</h4>
+              <ul className="space-y-4">
               <li>
                 <a href="https://instagram.com/goolpxl" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-success text-sm transition-colors">
                   Instagram
@@ -55,6 +55,7 @@ export function Footer() {
                 </a>
               </li>
             </ul>
+            </div>
           </div>
 
           {/* Contact */}
