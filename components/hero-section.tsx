@@ -7,7 +7,7 @@ export function HeroSection() {
       <div 
         className="absolute inset-0"
         style={{
-          backgroundImage: 'url(/hero-banner.webp)',
+          backgroundImage: 'url(/hero-banner.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
@@ -35,12 +35,12 @@ export function HeroSection() {
         </div>
 
         {/* Title */}
-        <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight tracking-tight">
+        <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight tracking-tight">
           <span className="text-accent">GoolPxl</span>
         </h1>
 
         {/* Subtitle */}
-        <p className="text-lg md:text-3xl text-foreground max-w-2xl mx-auto leading-relaxed">
+        <p className="font-display text-lg md:text-3xl font-bold text-foreground max-w-2xl mx-auto leading-relaxed">
         El fútbol que amas, contado como una película
         </p>
         <p className="text-lg md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
@@ -53,13 +53,13 @@ export function HeroSection() {
             href="https://www.youtube.com/playlist?list=PLTjzhFbASibxRhraxg73rIZpw-JWkI8t9"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-4 bg-success text-success-foreground rounded-lg hover:bg-opacity-90 transition-all font-semibold text-lg shadow-md hover:shadow-lg"
+            className="px-8 py-4 bg-success text-success-foreground rounded-lg hover:bg-opacity-90 transition-all font-normal text-lg shadow-md hover:shadow-lg"
           >
             Iniciar Serie
           </a>
           <a
             href="#featured"
-            className="px-8 py-4 border-2 border-success-foreground hover:border-success text-success-foreground rounded-lg  hover:text-success transition-all font-semibold text-lg"
+            className="px-8 py-4 border-2 border-success-foreground hover:border-success text-success-foreground rounded-lg hover:text-success transition-all font-normal text-lg"
           >
             Ver Episodios
           </a>

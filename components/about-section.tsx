@@ -5,7 +5,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
           {/* Left content */}
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
               Sobre <span className="text-accent">GoolPxl</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">

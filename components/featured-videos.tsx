@@ -116,7 +116,7 @@ export function FeaturedVideos() {
       <div className="max-w-7xl mx-auto">
         {/* Section header */}
         <div className="mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-4">
             Episodios <span className="text-accent">Épicos</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl">
