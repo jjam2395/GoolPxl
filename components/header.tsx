@@ -31,7 +31,7 @@ export function Header() {
             href="https://www.youtube.com/@goolpxl?sub_confirmation=1"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2 bg-success text-success-foreground rounded-lg hover:bg-opacity-90 transition-all text-md font-medium shadow-md hover:shadow-lg"
+            className="px-6 py-2 bg-success text-success-foreground rounded-lg hover:bg-opacity-90 transition-all text-md font-normal shadow-md hover:shadow-lg"
           >
             Suscribirse
           </a>

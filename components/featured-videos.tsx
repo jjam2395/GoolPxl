@@ -89,7 +89,7 @@ function VideoCard({ video, index }: { video: VideoCard; index: number }) {
 
       {/* Content */}
       <div>
-        <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-success transition-colors line-clamp-1">
+        <h3 className="font-headline text-xl font-bold text-foreground mb-2 group-hover:text-success transition-colors line-clamp-1">
           {video.title}
         </h3>
         <p className="text-muted-foreground text-sm mb-4 line-clamp-3">

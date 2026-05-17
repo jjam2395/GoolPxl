@@ -1,10 +1,20 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono, Playfair_Display } from 'next/font/google'
+import { Barlow, Barlow_Condensed, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const barlow = Barlow({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-barlow',
+})
+
+const barlowCondensed = Barlow_Condensed({
+  subsets: ['latin'],
+  weight: '700',
+  variable: '--font-barlow-condensed',
+})
+
 const playfairDisplay = Playfair_Display({
   subsets: ['latin'],
   weight: '700',
@@ -40,8 +50,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className={`${playfairDisplay.variable} bg-background dark`}>
-      <body className="font-sans antialiased bg-background">
+    <html lang="en" className={`${barlow.variable} ${barlowCondensed.variable} ${playfairDisplay.variable} bg-background dark`}>
+      <body className={`${barlow.className} font-sans font-normal antialiased bg-background`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
