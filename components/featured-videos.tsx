@@ -53,7 +53,7 @@ function VideoCard({ video, index }: { video: VideoCard; index: number }) {
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* Thumbnail */}
-      <div className="relative h-48 md:h-35 lg:h-57 rounded-lg overflow-hidden bg-muted mb-6 cursor-pointer">
+      <div className="relative h-48 md:h-31 lg:h-40 xl:h-57 rounded-lg overflow-hidden bg-muted mb-6 cursor-pointer">
         <a 
           href={video.url}
           target="_blank"
