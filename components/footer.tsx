@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-24">
           {/* Brand */}
           <div>
-            <h3 className="text-lg font-bold text-success mb-4">GoolPxl</h3>
+            <h3 className="text-lg font-bold text-accent mb-4">GoolPxl</h3>
             <p className="text-muted-foreground text-sm">
               Mini documentales de fútbol con historias que trascienden el juego.
             </p>
