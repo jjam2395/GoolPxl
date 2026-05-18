@@ -24,7 +24,7 @@ const videos: VideoCard[] = [
     title: 'Las historias más crueles de los Mundiales: Ronaldo, Mbappe, Neymar…',
     description:
       'El Mundial tiene historias inconclusas. Hay 6 jugadores a los que el torneo nunca saldó su deuda. En 2026, tres todavía pueden cobrarla. Ronaldo Nazário tuvo la redención. Ronaldinho, Robben y Neymar nunca pudieron escribir su capítulo. Y ahora Kane, Mbappé y Cristiano Ronaldo llegan al Mundial 2026 con la espina más abierta del fútbol moderno. Este video recorre 6 historias de genios que el torneo más grande del mundo trató diferente a lo que merecían, y termina con una sola pregunta: ¿quién cobra la deuda en 2026?',
-    thumbnail: '/videos/4_espina_clavada.png',
+    thumbnail: '/videos/4_espina_clavada.webp',
     duration: '14:54',
     views: '16',
     url: 'https://youtu.be/al4Nkcnl-O0',
