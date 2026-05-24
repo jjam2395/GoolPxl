@@ -1,6 +1,7 @@
 import { Header } from '@/components/header'
 import { HeroSection } from '@/components/hero-section'
 import { FeaturedVideos } from '@/components/featured-videos'
+import { GiveawaySection } from '@/components/giveaway-section'
 import { AboutSection } from '@/components/about-section'
 import { Footer } from '@/components/footer'
 
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="bg-background">
       <Header />
       <HeroSection />
+      <GiveawaySection />
       <FeaturedVideos />
       <AboutSection />
       <Footer />

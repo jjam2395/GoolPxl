@@ -5,7 +5,7 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-muted">
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
-        <Link href="#" className="flex items-center gap-3 group">
+        <Link href="/" className="flex items-center gap-3 group">
           <div className="relative w-10 h-10">
             <Image
               src="/Logo-GP-transparent.webp"
@@ -21,11 +21,14 @@ export function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          <Link href="#featured" className="text-md text-muted-foreground hover:text-foreground transition-colors">
+          <Link href="/#featured" className="text-md text-muted-foreground hover:text-foreground transition-colors">
             Historias
           </Link>
-          <Link href="#about" className="text-md text-muted-foreground hover:text-foreground transition-colors">
+          <Link href="/#about" className="text-md text-muted-foreground hover:text-foreground transition-colors">
             Nosotros
+          </Link>
+          <Link href="/giveaway" className="text-md text-muted-foreground hover:text-foreground transition-colors">
+            Giveaway
           </Link>
           <a
             href="https://www.youtube.com/@goolpxl?sub_confirmation=1"

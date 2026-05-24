@@ -19,12 +19,12 @@ export function Footer() {
               <h4 className="text-sm font-semibold text-foreground mb-4">Navegación</h4>
               <ul className="space-y-4">
               <li>
-                <Link href="#featured" className="text-muted-foreground hover:text-success text-sm transition-colors">
+                <Link href="/#featured" className="text-muted-foreground hover:text-success text-sm transition-colors">
                   Historias
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="text-muted-foreground hover:text-success text-sm transition-colors">
+                <Link href="/#about" className="text-muted-foreground hover:text-success text-sm transition-colors">
                   Nosotros
                 </Link>
               </li>
