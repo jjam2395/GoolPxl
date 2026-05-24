@@ -25,7 +25,7 @@ const pointRules = [
   'Comentar un video: +1 punto',
   'Ser el primer comentario: +3 puntos',
   'Responder la pregunta secreta de forma coherente: +3 puntos',
-  'Participar en un video despues de haber comentado anteriormente: bonus de +2 puntos',
+  'Si has comentado en algún video antes del comienzo del torneo comenzaras con un bonus de 2 puntos',
 ]
 
 const importantRules = [
@@ -262,10 +262,12 @@ export default function GiveawayPage() {
       <section className="px-6 py-20">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-5 md:grid-cols-3">
           <div className="rounded-lg border border-muted bg-card p-7">
-            <MessageCircle className="mb-5 size-7 text-accent" />
-            <h3 className="font-headline text-2xl font-bold text-foreground">
-              Likes y comentarios
-            </h3>
+            <div className="flex items-center gap-3">
+              <MessageCircle className="size-7 flex-none text-accent" />
+              <h3 className="font-headline text-2xl font-bold text-foreground">
+                Likes y comentarios
+              </h3>
+            </div>
             <p className="mt-3 text-muted-foreground">
               YouTube no permite verificar publicamente quien dio like. Por
               eso, se asumira que toda persona que participe mediante
@@ -273,20 +275,24 @@ export default function GiveawayPage() {
             </p>
           </div>
           <div className="rounded-lg border border-muted bg-card p-7">
-            <ShieldCheck className="mb-5 size-7 text-accent" />
-            <h3 className="font-headline text-2xl font-bold text-foreground">
-              Tabla de puntos
-            </h3>
+            <div className="flex items-center gap-3">
+              <ShieldCheck className="size-7 flex-none text-accent" />
+              <h3 className="font-headline text-2xl font-bold text-foreground">
+                Tabla de puntos
+              </h3>
+            </div>
             <p className="mt-3 text-muted-foreground">
               Al final de cada video se publicara una tabla actualizada con los
               puntos acumulados por cada participante.
             </p>
           </div>
           <div className="rounded-lg border border-muted bg-card p-7">
-            <Trophy className="mb-5 size-7 text-accent" />
-            <h3 className="font-headline text-2xl font-bold text-foreground">
-              Reclamo del premio
-            </h3>
+            <div className="flex items-center gap-3">
+              <Trophy className="size-7 flex-none text-accent" />
+              <h3 className="font-headline text-2xl font-bold text-foreground">
+                Reclamo del premio
+              </h3>
+            </div>
             <p className="mt-3 text-muted-foreground">
               El ganador tendra 48 horas para responder despues del anuncio
               oficial. Si no responde, se podra elegir un nuevo ganador.
