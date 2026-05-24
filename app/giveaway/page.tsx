@@ -125,7 +125,7 @@ export default function GiveawayPage() {
           <div className="relative mx-auto w-full max-w-2xl">
             <div className="relative aspect-[16/11] overflow-hidden rounded-lg border border-white/10 bg-card shadow-[0_32px_80px_-24px_rgba(0,0,0,0.85)] lg:aspect-[16/12]">
               <Image
-                src="/giveaway-prize.png"
+                src="/giveaway-prize.webp"
                 alt="Gift cards del giveaway GoolPxl"
                 fill
                 priority

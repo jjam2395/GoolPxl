@@ -21,16 +21,26 @@ const ROW_PEEK = '3rem'
 const videos: VideoCard[] = [
   {
     id: '1',
+    title: 'Los equipos que nadie quiere cruzarse en 2026.',
+    description:
+      'Marruecos, Japón, Colombia y Noruega tienen los números para llegar donde nadie los espera. ¿Los favoritos ya los descartaron? Eso es exactamente el problema.',
+    thumbnail: '/videos/5_heroes_inesperados.webp',
+    duration: '15:30',
+    views: '5',
+    url: 'https://youtu.be/1dWlyI8iw8Y',
+  },
+  {
+    id: '2',
     title: 'Las historias más crueles de los Mundiales: Ronaldo, Mbappe, Neymar…',
     description:
       'El Mundial tiene historias inconclusas. Hay 6 jugadores a los que el torneo nunca saldó su deuda. En 2026, tres todavía pueden cobrarla. Ronaldo Nazário tuvo la redención. Ronaldinho, Robben y Neymar nunca pudieron escribir su capítulo. Y ahora Kane, Mbappé y Cristiano Ronaldo llegan al Mundial 2026 con la espina más abierta del fútbol moderno. Este video recorre 6 historias de genios que el torneo más grande del mundo trató diferente a lo que merecían, y termina con una sola pregunta: ¿quién cobra la deuda en 2026?',
     thumbnail: '/videos/4_espina_clavada.webp',
     duration: '14:54',
-    views: '16',
+    views: '44',
     url: 'https://youtu.be/al4Nkcnl-O0',
   },
   {
-    id: '2',
+    id: '3',
     title: 'México 70: El Mundial que Cambió el Fútbol para Siempre (y Nadie te Contó por Qué)',
     description:
       'Ser México 70 no fue solo un torneo: fue una cortina de humo política, una negociación televisiva que cambió los horarios para siempre, y el escenario del partido más dramático de la historia mundialista. En este video descubrirás por qué Italia 4 – Alemania 3 tiene una placa grabada en el Azteca, qué papel jugó Televisa en los horarios de los partidos, y qué le dejó México 70 al fútbol moderno.',
@@ -41,7 +51,7 @@ const videos: VideoCard[] = [
     
   },
   {
-    id: '3',
+    id: '4',
     title: 'Las Joyas del mundial 2026',
     description:
       'Lamine Yamal. Arda Güler. Endrick. Franco Mastantuono. Cuatro nombres que el fútbol ya decidió que son el futuro. Cuatro chicos de entre 17 y 21 años que en 2026 van a cargar con el peso de sus países en el escenario más grande del mundo. Yamal y Güler vivieron en carne propia lo que es fallar cuando más se espera de ti. Y eso fue solo la Champions League. En el Mundial no habrá Bellingham al lado. No habrá sistema que absorba el error. Solo ellos. Y la presión de una nación entera. En este video no analizamos si son buenos — eso ya está fuera de discusión. Analizamos algo más difícil: qué le pasa a un genio de 18 años cuando todo un país lo convierte en su única esperanza.',
@@ -51,7 +61,7 @@ const videos: VideoCard[] = [
     url: 'https://youtu.be/IXHFRAEP8MU',
   },
   {
-    id: '4',
+    id: '5',
     title: 'The Last Dance: Messi, CR7, Modric',
     description:
       'Las últimas figuras del futbol moderno jugarán su último mundial, ¿Estás listo para verlos por última vez? ¿Aún tienen el nivel que demostraron antes?',

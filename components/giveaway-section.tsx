@@ -59,7 +59,7 @@ export function GiveawaySection() {
         >
           <div className="relative aspect-[16/10] overflow-hidden rounded-lg border border-muted bg-background shadow-[0_24px_64px_-24px_rgba(0,0,0,0.85)] transition-colors group-hover:border-accent">
             <Image
-              src="/giveaway-prize.png"
+              src="/giveaway-prize.webp"
               alt="Gift cards del giveaway GoolPxl"
               fill
               sizes="(max-width: 768px) 90vw, 520px"
